@@ -1,0 +1,3 @@
+cped 0xB6F5F0
+04674DA6 - String - New game menu title
+04671D0F - String - Pause menu title

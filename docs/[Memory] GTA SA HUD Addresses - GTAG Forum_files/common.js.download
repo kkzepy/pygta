@@ -1,0 +1,37 @@
+$(document).ready(function(){
+	hide('.hide');
+	show('.showifjs');
+	$('._noac').attr('autocomplete','off');
+	var lb=$("a.lightbox");
+	if(lb.length){
+		lb.lightBox();
+		$("img.lightbox").each(function(){
+			if($(this).parent().is('a')) $(this).parent().lightBox();
+		});
+	}
+	$("a[rel='_external']").each(function(){this.target="_blank";});
+	$(document).on('click','div[id|="toggle"]',function(e){e.stopPropagation();var s=$(this).attr('id');var o="#"+s.split('-')[1];if($(this).hasClass('dropup')){$(o).slideDown(350).show();$(this).removeClass('dropup');$(this).addClass('dropdown');}else{$(o).slideUp(350).hide();$(this).removeClass('dropdown');$(this).addClass('dropup');}});
+	$(document).on('click',"#toggle_cpmenu",function(e){e.stopPropagation();if($(this).hasClass('dropup')){$("#cpmenu").slideDown(350).show();$(this).removeClass('dropup');$(this).addClass('dropdown');}else{$("#cpmenu").slideUp(350).hide();$(this).removeClass('dropdown');$(this).addClass('dropup');}});
+	$(document).on('click',"html",function(){b=$("#cpmenu");if($(b).is(':visible')){b.slideUp(350).hide();$("#toggle_cpmenu").removeClass('dropdown');$("#toggle_cpmenu").addClass('dropup');}});
+});
+function hide(elem,time){$(elem).hide(time);}
+function show(elem,time){$(elem).show(time);}
+function popitup(url,w,h){w=typeof w!=='undefined'?w:200;h=typeof h!=='undefined'?h:150;var p=window.open(url,'name','menubar=no,status=no,height='+h+',width='+w);if(window.focus)p.focus();return false;}
+
+function like_forum_post(obj, user, topic_id, post_id, post_author, liked_already){
+	$.post("/includes/ajax.inc.php",{act:"like",type:"forum_post",member:user,topic:topic_id,post:post_id,author:post_author},
+		function(data){
+			switch(isNaN(data) ? -1 : +data)
+			{
+			case 0:
+				$(obj).html("<img src=\"/images/cookie.png\" width=\"24\" height=\"24\" /> Give 8-bit cookie!</a>");
+				break;
+			case 1:
+				$(obj).html("<img src=\"/images/cookie.png\" width=\"24\" height=\"24\" /> Erase cookie");
+				break;
+			default:
+				alert(data);
+			}
+		}
+	);
+}

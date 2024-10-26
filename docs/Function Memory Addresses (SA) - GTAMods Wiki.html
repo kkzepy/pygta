@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Players -->
+<html class="client-js" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Function Memory Addresses (SA) - GTAMods Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Function_Memory_Addresses_(SA)","wgTitle":"Function Memory Addresses (SA)","wgCurRevisionId":9590,"wgRevisionId":9590,"wgArticleId":1004,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing rewrite","GTA SA","Memory Addresses"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Function_Memory_Addresses_(SA)","wgRelevantArticleId":1004,"wgRequestId":"133bb71e26662405aeb8855f","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="./Function Memory Addresses (SA) - GTAMods Wiki_files/load.php">
+<script async="" src="./Function Memory Addresses (SA) - GTAMods Wiki_files/load(1).php"></script>
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.mw-collapsible-toggle-default:before{content:'['}.mw-collapsible-toggle-default:after{content:']'}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:0;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:#fff;cursor:pointer;border:1px solid #a2a9b1;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:#fff;cursor:pointer;border:1px solid #a2a9b1;padding:0;margin:0}.suggestions-result{color:#000;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#2a4b8d;color:#fff}.suggestions-special .special-label{color:#72777d;text-align:left}.suggestions-special .special-query{color:#000;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:#c8ccd1}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:#fff}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	.toc.tochidden,.toctoggle{display:none}}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:#000;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:#fff}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="./Function Memory Addresses (SA) - GTAMods Wiki_files/load(2).php">
+<meta name="generator" content="MediaWiki 1.32.0">
+<link rel="shortcut icon" href="https://gtamods.com/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://gtamods.com/mediawiki/opensearch_desc.php" title="GTAMods Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://gtamods.com/mediawiki/api.php?action=rsd">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<link rel="alternate" type="application/atom+xml" title="GTAMods Wiki Atom feed" href="https://gtamods.com/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom">
+<!--[if lt IE 9]><script src="/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Function_Memory_Addresses_SA rootpage-Function_Memory_Addresses_SA skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Function Memory Addresses (SA)</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From GTAMods Wiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div style="width: 100%; border: 1px solid #cedff2; background: #f5faff; margin: 1em 0">
+<table style="background-color: #f5faff; margin: auto;">
+
+<tbody><tr>
+<td><a href="https://gtamods.com/wiki/File:40px-Ambox_rewrite_orange.svg.png" class="image"><img alt="40px-Ambox rewrite orange.svg.png" src="./Function Memory Addresses (SA) - GTAMods Wiki_files/40px-Ambox_rewrite_orange.svg.png" width="40" height="40"></a></td>
+<td style="text-align: center">This article may need to be rewritten.<b><br><small>Please help <span class="plainlinks"> <a rel="nofollow" class="external text" href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;action=edit">improve this article</a></span>. The <a href="https://gtamods.com/wiki/Talk:Function_Memory_Addresses_(SA)" title="Talk:Function Memory Addresses (SA)">discussion page</a> may contain suggestions.</small></b>
+</td></tr></tbody></table></div>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Base_Functions"><span class="tocnumber">1</span> <span class="toctext">Base Functions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Cheats"><span class="tocnumber">1.1</span> <span class="toctext">Cheats</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Cutscene"><span class="tocnumber">1.2</span> <span class="toctext">Cutscene</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Data_Pools"><span class="tocnumber">1.3</span> <span class="toctext">Data Pools</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Directory"><span class="tocnumber">1.4</span> <span class="toctext">Directory</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#DX9"><span class="tocnumber">1.5</span> <span class="toctext">DX9</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Emergency"><span class="tocnumber">1.6</span> <span class="toctext">Emergency</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Fading"><span class="tocnumber">1.7</span> <span class="toctext">Fading</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#File_Management"><span class="tocnumber">1.8</span> <span class="toctext">File Management</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Markers"><span class="tocnumber">1.9</span> <span class="toctext">Markers</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Players"><span class="tocnumber">1.10</span> <span class="toctext">Players</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Scripts"><span class="tocnumber">1.11</span> <span class="toctext">Scripts</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Stats"><span class="tocnumber">1.12</span> <span class="toctext">Stats</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Text"><span class="tocnumber">1.13</span> <span class="toctext">Text</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#Vehicles"><span class="tocnumber">1.14</span> <span class="toctext">Vehicles</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#UnCategorised"><span class="tocnumber">1.15</span> <span class="toctext">UnCategorised</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)#External_Link"><span class="tocnumber">2</span> <span class="toctext">External Link</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Base_Functions">Base Functions</span></h2>
+<h3><span class="mw-headline" id="Cheats">Cheats</span></h3>
+<dl><dt>0x00438480</dt>
+<dd><code>CCheat::Process</code></dd>
+<dt>0x00609F50</dt>
+<dd><code>CCheat::SetWantedLevel</code></dd>
+<dt>0x00438E90</dt>
+<dd><code>CCheat::Add2Stars</code></dd>
+<dt>0x00438E40</dt>
+<dd><code>CCheat::AddArmourMoneyHealth</code></dd>
+<dt>0x00438F20</dt>
+<dd><code>CCheat::ClearWantedLevel</code></dd>
+<dt>0x00407851</dt>
+<dd><code>CCheat::CreateCar</code></dd>
+<dt>0x0043A510</dt>
+<dd><code>CCheat::CreateCar408</code></dd>
+<dt>0x0043A500</dt>
+<dd><code>CCheat::CreateCar409</code></dd>
+<dt>0x0043A4A0</dt>
+<dd><code>CCheat::CreateCar432</code></dd>
+<dt>0x0043A4F0</dt>
+<dd><code>CCheat::CreateCar442</code></dd>
+<dt>0x0043A520</dt>
+<dd><code>CCheat::CreateCar457</code></dd>
+<dt>0x0043A4D0</dt>
+<dd><code>CCheat::CreateCar502</code></dd>
+<dt>0x0043A4E0</dt>
+<dd><code>CCheat::CreateCar503</code></dd>
+<dt>0x0043A4B0</dt>
+<dd><code>CCheat::CreateCar504</code></dd>
+<dt>0x0043A4C0</dt>
+<dd><code>CCheat::CreateCar505</code></dd>
+<dt>0x0043A660</dt>
+<dd><code>CCheat::CreateCarDozer</code></dd>
+<dt>0x0043A550</dt>
+<dd><code>CCheat::CreateCarHunter</code></dd>
+<dt>0x0043A560</dt>
+<dd><code>CCheat::CreateCarQuad</code></dd>
+<dt>0x0043A680</dt>
+<dd><code>CCheat::CreateCarMonster</code></dd>
+<dt>0x0043A670</dt>
+<dd><code>CCheat::CreateCarStuntPlane</code></dd>
+<dt>0x0043A570</dt>
+<dd><code>CCheat::CreateCarTanker</code></dd>
+<dt>0x00438FC0</dt>
+<dd><code>CCheat::DecreaseGameSpeed</code></dd>
+<dt>0x00438F90</dt>
+<dd><code>CCheat::IncreaseGameSpeed</code></dd>
+<dt>0x00439C70</dt>
+<dd><code>CCheat::EveryoneArmed</code></dd>
+<dt>0x00439600</dt>
+<dd><code>CCheat::Jetpack</code></dd>
+<dt>0x004399D0</dt>
+<dd><code>CCheat::SetSkillsMax</code></dd>
+<dt>0x00438F50</dt>
+<dd><code>CCheat::SetWeather0</code></dd>
+<dt>0x00438F40</dt>
+<dd><code>CCheat::SetWeather1</code></dd>
+<dt>0x00438F70</dt>
+<dd><code>CCheat::SetWeather16</code></dd>
+<dt>0x00438F60</dt>
+<dd><code>CCheat::SetWeather4</code></dd>
+<dt>0x00438F80</dt>
+<dd><code>CCheat::SetWeather9</code></dd>
+<dt>0x004385B0</dt>
+<dd><code>CCheat::WeaponSet1</code></dd>
+<dt>0x00438890</dt>
+<dd><code>CCheat::WeaponSet2</code></dd>
+<dt>0x00438B30</dt>
+<dd><code>CCheat::WeaponSet3</code></dd>
+<dt>0x00439B20</dt>
+<dd><code>CCheat::PedsAttackAll</code></dd></dl>
+<h3><span class="mw-headline" id="Cutscene">Cutscene</span></h3>
+<dl><dt>0x004D5ED0</dt>
+<dd><code>CScene::End</code></dd></dl>
+<h3><span class="mw-headline" id="Data_Pools">Data Pools</span></h3>
+<p>Data arrays for storing entities.
+</p>
+<dl><dt>0x00550F10</dt>
+<dd><code>CPools::Initialise((void))</code></dd>
+<dt>0x005519F0</dt>
+<dd><code>CPools::ShutDown((void))</code></dd>
+<dt>0x00550570</dt>
+<dd><code>CPool_CBuilding_CBuilding::CPool_CBuilding_CBuilding((int))</code></dd>
+<dt>0x005507C0</dt>
+<dd><code>CPool_CColModel_CColModel::CPool_CColModel_CColModel((int))</code></dd>
+<dt>0x005506F0</dt>
+<dd><code>CPool_CDummy_CDummyPed::CPool_CDummy_CDummyPed((int))</code></dd>
+<dt>0x00550320</dt>
+<dd><code>CPool_CEntryInfoNode_CEntryInfoNode::CPool_CEntryInfoNode_CEntryInfoNode((int))</code></dd>
+<dt>0x00550960</dt>
+<dd><code>CPool_CEvent_CEvent::CPool_CEvent_CEvent((int))</code></dd>
+<dt>0x00550BD0</dt>
+<dd><code>CPool_CNodeRoute_CNodeRoute::CPool_CNodeRoute_CNodeRoute((int))</code></dd>
+<dt>0x00550640</dt>
+<dd><code>CPool_CObject_CObject::CPool_CObject_CObject((int))</code></dd>
+<dt>0x00550B00</dt>
+<dd><code>CPool_CPatrolRoute_CPatrolRoute::CPool_CPatrolRoute_CPatrolRoute((int))</code></dd>
+<dt>0x00550E40</dt>
+<dd><code>CPool_CPedAttractors_CPedAttractors::CPool_CPedAttractors_CPedAttractors((int))</code></dd>
+<dt>0x00550D70</dt>
+<dd><code>CPool_CPedIntelligence_CPedIntelligence::CPool_CPedIntelligence_CPedIntelligence((int))</code></dd>
+<dt>0x005503F0</dt>
+<dd><code>CPool_CPed_CPlayerPed::CPool_CPed_CPlayerPed((int))</code></dd>
+<dt>0x00550A30</dt>
+<dd><code>CPool_CPointRoute_CPointRoute::CPool_CPointRoute_CPointRoute((int))</code></dd>
+<dt>0x00550250</dt>
+<dd><code>CPool_CPtrNodeDouble_CPtrNodeDouble::CPool_CPtrNodeDouble_CPtrNodeDouble((int))</code></dd>
+<dt>0x00550180</dt>
+<dd><code>CPool_CPtrNodeSingle_CPtrNodeSingle::CPool_CPtrNodeSingle_CPtrNodeSingle((int))</code></dd>
+<dt>0x00550CA0</dt>
+<dd><code>CPool_CTaskAllocator_CTaskAllocator::CPool_CTaskAllocator_CTaskAllocator((int))</code></dd>
+<dt>0x00550890</dt>
+<dd><code>CPool_CTask_CTask::CPool_CTask_CTask((int))</code></dd>
+<dt>0x005504C0</dt>
+<dd><code>CPool_CVehicle_CAutomobile::CPool_CVehicle_CAutomobile((int))</code></dd></dl>
+<h3><span class="mw-headline" id="Directory">Directory</span></h3>
+<p>These could make end of img files.
+</p>
+<dl><dt>0x0023C470</dt>
+<dd><code>CDirectory::CDirectory((int))</code></dd>
+<dt>0x0023C230</dt>
+<dd><code>CDirectory::FindItem((char const *,uint &amp;,uint &amp;))</code></dd>
+<dt>0x0023C340</dt>
+<dd><code>CDirectory::ReadDirFile((char const *))</code></dd></dl>
+<h3><span class="mw-headline" id="DX9">DX9</span></h3>
+<dl><dt>0x00402C1F</dt>
+<dd><code>CDX9::DeviceControlProc</code></dd>
+<dt>0x00807C2B</dt>
+<dd><code>CDX9::Direct3DCreate9</code></dd>
+<dt>0x0081805C</dt>
+<dd><code>CDX9::DirectDrawCreateEx</code></dd>
+<dt>0x00817523</dt>
+<dd><code>CDX9::DirectInput8Create</code></dd></dl>
+<h3><span class="mw-headline" id="Emergency">Emergency</span></h3>
+<dl><dt>0x00407C50</dt>
+<dd><code>CEmergency::CreatePoliceInCity</code></dd>
+<dt>0x0156AB70</dt>
+<dd><code>CEmergency::CreateRoadBlocks</code></dd></dl>
+<h3><span class="mw-headline" id="Fading">Fading</span></h3>
+<dl><dt>0x0050AC20</dt>
+<dd><code>CFade::Fade</code></dd></dl>
+<h3><span class="mw-headline" id="File_Management">File Management</span></h3>
+<dl><dt>0x004AB260</dt>
+<dd><code>CFileMgr::CloseFile((int))</code></dd>
+<dt>0x005389D0</dt>
+<dd><code>CFileMgr::CloseFile((int))</code></dd>
+<dt>0x004AB240</dt>
+<dd><code>CFileMgr::OpenFile((char const *))</code></dd>
+<dt>0x00538900</dt>
+<dd><code>CFileMgr::OpenFile((char const *))</code></dd>
+<dt>0x00538950</dt>
+<dd><code>CFileMgr::Read((int,char *,int))</code></dd>
+<dt>0x005387D0</dt>
+<dd><code>CFileMgr::SetDir((char const *))</code></dd>
+<dt>0x008232D8</dt>
+<dd><code>CFileMgr::AssignFile</code></dd>
+<dt>0x00538950</dt>
+<dd><code>CFileMgr::BlockRead</code></dd>
+<dt>0x0082318B</dt>
+<dd><code>CFileMgr::CloseFile</code></dd>
+<dt>0x00402B8B</dt>
+<dd><code>CFileMgr::CreateFile</code></dd></dl>
+<h3><span class="mw-headline" id="Markers">Markers</span></h3>
+<dl><dt>0x00587CE0</dt>
+<dd><code>CMarker::Disable</code></dd></dl>
+<h3><span class="mw-headline" id="Players">Players</span></h3>
+<dl><dt>0x00409D10</dt>
+<dd><code>CPlayer::CreatePlayer_Unk</code></dd>
+<dt>0x0056E210</dt>
+<dd><code>CPed::GetPlayerPed(u32 unknown)</code></dd></dl>
+<h3><span class="mw-headline" id="Scripts">Scripts</span></h3>
+<dl><dt>0x00486720</dt>
+<dd><code>CTheScripts::ReadObjectNamesFromScript((void))</code></dd>
+<dt>0x00486780</dt>
+<dd><code>CTheScripts::UpdateObjectIndices((void))</code></dd>
+<dt>0x00464080</dt>
+<dd><code>CRunningScript::CollectParameters((uint *,short)) (GetOpcodeParameters)</code></dd>
+<dt>0x00469F00</dt>
+<dd><code>CRunningScript_ProcessOneCommand</code></dd>
+<dt>0x00A43C78</dt>
+<dd>Where the routine above stores opcode parameters values. Max 32 parameters for an opcode it seems. (Although only 16 are ever used.)</dd>
+<dt>0x00464370</dt>
+<dd><code>StoreOpcodeResult()</code></dd>
+<dd>For opcodes that return a value in a variable parameter, copies the return value from <b>0xA43C78</b> to the variable. A complementary function to <code>GetOpcodeParameters()</code>.</dd>
+<dt>0x0156A2A0</dt>
+<dd><code>CScript::CreateNewThread</code></dd>
+<dt>0x00465AA0</dt>
+<dd><code>CScript::EndThread_Unk</code></dd>
+<dt>0x00402B36</dt>
+<dd><code>CScript::ExitThreadProc</code></dd></dl>
+<h3><span class="mw-headline" id="Stats">Stats</span></h3>
+<dl><dt>0x0055C180</dt>
+<dd><code>CStat::AddToStat</code></dd>
+<dt>0x00532010</dt>
+<dd><code>CStat::CrimeCommited_Unk</code></dd>
+<dt>0x00559FA0</dt>
+<dd><code>CStat::DecreaseStat</code></dd>
+<dt>0x0057DDE0</dt>
+<dd><code>CStat::CreateStatsFile</code></dd></dl>
+<h3><span class="mw-headline" id="Text">Text</span></h3>
+<dl><dt>0x008214D0</dt>
+<dd><code>CText::CompareStrings</code></dd>
+<dt>0x0076FA94</dt>
+<dd><code>CText::CompareText</code></dd>
+<dt>0x0053CF30</dt>
+<dd><code>CText::ConvertGXTEntryToCRC32</code></dd>
+<dt>0x0069F7E0</dt>
+<dd><code>CText::CopyToStatString</code></dd>
+<dt>0x00718660</dt>
+<dd><code>CText::CopyString</code></dd>
+<dt>0x00745E50</dt>
+<dd><code>CText::DialogProc</code></dd>
+<dt>0x0071A700</dt>
+<dd><code>CText::DrawText</code></dd>
+<dt>0x00719610</dt>
+<dd><code>CText::EnableTextDrawCentered</code></dd>
+<dt>0x008220AD</dt>
+<dd><code>CText::ExtractDataFromString</code></dd></dl>
+<h3><span class="mw-headline" id="Vehicles">Vehicles</span></h3>
+<dl><dt>0x0043A0B6</dt>
+<dd><code>CVehicle::CreateCar</code></dd>
+<dt>0x006F7550</dt>
+<dd><code>CVehicle::CreateTrain</code></dd>
+<dt>0x006F5DC0</dt>
+<dd><code>CVehicle::DestroyTrain</code></dd></dl>
+<h3><span class="mw-headline" id="UnCategorised">UnCategorised</span></h3>
+<dl><dt>0x004CE090</dt>
+<dd><code>CAnimBlendAssocGroup::GetAnimation((uint))</code></dd>
+<dt>0x00735FD0</dt>
+<dd><code>CBulletInfo::Initialise((void))</code></dd>
+<dt>0x00736A40</dt>
+<dd><code>CExplosion::Initialise((void))</code></dd>
+<dt>0x00737B40</dt>
+<dd><code>CProjectileInfo::Initialise((void))</code></dd>
+<dt>0x007170C0</dt>
+<dd><code>CRGBA::CRGBA((uchar,uchar,uchar,uchar))</code></dd>
+<dt>0x00739B60</dt>
+<dd><code>CShotInfo::Initialise((void))</code></dd>
+<dt>0x0073A300</dt>
+<dd><code>CWeapon::InitialiseWeapons((void))</code></dd>
+<dt>0x005BF750</dt>
+<dd><code>CWeaponInfo::Initialise((void))</code></dd>
+<dt>0x0053BC80</dt>
+<dd><code>LoadGame(char; fileName))</code></dd>
+<dd>Initializes all data structures and loads fileName (which is gta.dat).</dd>
+<dt>0x005B9030</dt>
+<dd><code>LoadMapDefinitionFile(char; fileName))</code></dd>
+<dd>Parses and loads dat-files, such as default.dat and gta.dat.</dd>
+<dt>0x00550F10</dt>
+<dd><code>AllocatePools())</code></dd>
+<dd>Allocates stuff which LimitAdjuster modifies, such as Peds and Buildings.</dd>
+<dt>0x0082119A</dt>
+<dd><code>malloc(size_t size)</code></dd>
+<dt>0x00748760</dt>
+<dd><code>int __stdcall WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd)</code></dd>
+<dt>0x00747F00</dt>
+<dd><code>int __stdcall WndProc(HWND hWnd,int msg,WPARAM wParam,int lParam)</code></dd>
+<dt>0x007486F0</dt>
+<dd><code>int __cdecl RegisterSAWindow()</code></dd>
+<dt>0x00745560</dt>
+<dd><code>HWND __cdecl CreateSAWindow(HINSTANCE hInstance)</code></dd>
+<dt>0x007476B0</dt>
+<dd><code>void __cdecl PlayMPEG(int nShowCmd, char *filename)</code></dd>
+<dd>Used to play intro videos (Logo.mpg and GTAtitles.mpg)</dd>
+<dt>0x01569F10</dt>
+<dd><code>CMission::ClearLocals</code></dd>
+<dt>0x0156EF70</dt>
+<dd><code>CMission::ClearRoadBlocks</code></dd>
+<dt>0x00572670</dt>
+<dd><code>CMission::ClearZonesInfo</code></dd>
+<dt>0x0040A2A0</dt>
+<dd><code>CreateFiremenInCity</code></dd>
+<dt>0x00561B00</dt>
+<dd><code>DisableMissionFlag_Unk</code></dd>
+<dt>0x00561AF0</dt>
+<dd><code>EnableMissionPack_Unk ( bool enabled )</code></dd></dl>
+<h2><span class="mw-headline" id="External_Link">External Link</span></h2>
+<ul><li><span class="icon-align"><a href="https://gtamods.com/wiki/File:Gtanet.png" class="image" title="GTA Net"><img alt="GTA Net" src="./Function Memory Addresses (SA) - GTAMods Wiki_files/Gtanet.png" width="16" height="16"></a></span>&nbsp;<span style="font-size:95%; color:#888;">GTAForums:&nbsp;</span><a rel="nofollow" class="external text" href="http://www.gtaforums.com/index.php?showtopic=194199">GTASA Memory Addresses</a></li>
+<li><a rel="nofollow" class="external text" href="http://sannybuilder.com/dev/research/gta_funcs.txt">SA EXE 1.0 Functions List</a> - updated 10 Jan, 2008</li></ul>
+<table border="2" class="nowraplinks mw-collapsible mw-made-collapsible" width="100%" cellpadding="3" cellspacing="0" style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 3px white solid; border-collapse: collapse;"><tbody><tr style="border: 1px solid white;background: #d89963"><th colspan="2"><span class="mw-collapsible-toggle mw-collapsible-toggle-default" role="button" tabindex="0"><a class="mw-collapsible-text">Collapse</a></span><div style="float:left; margin-left:0.5em"><span style="font-size:75%;" title="View this template"><a href="https://gtamods.com/wiki/Template:SA-navi" title="Template:SA-navi">v</a></span>&nbsp;·&nbsp;<span style="font-size:75%;" title="Discussion about this template"><a href="https://gtamods.com/wiki/Template_talk:SA-navi" title="Template talk:SA-navi">d</a></span>&nbsp;·&nbsp;<span style="font-size:75%;" class="plainlinks" title="Edit this template"><a rel="nofollow" class="external text" href="https://gtamods.com/mediawiki/index.php?title=Template:SA-navi&amp;action=edit">e</a></span></div><span class="icon-align"><a href="https://gtamods.com/wiki/Category:GTA_SA" title="San Andreas"><img alt="San Andreas" src="./Function Memory Addresses (SA) - GTAMods Wiki_files/Sa.png" width="16" height="16" srcset="/mediawiki/thumb.php?f=Sa.png&amp;width=24 1.5x, /mediawiki/images/4/4e/Sa.png 2x"></a></span> <a href="https://gtamods.com/wiki/GTA_San_Andreas" class="mw-redirect" title="GTA San Andreas">Grand Theft Auto: San Andreas</a></th></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:File_Formats" title="Category:File Formats">File Formats</a></b></td><td style="border: 1px solid white;background:#ffe3a9; font-size:90%"><a href="https://gtamods.com/wiki/.b" title=".b">.b</a> • <a href="https://gtamods.com/wiki/Collision_File" title="Collision File">.col</a> • <a href="https://gtamods.com/wiki/Handling.cfg#GTA_San_Andreas" title="Handling.cfg">.cfg</a> • <a href="https://gtamods.com/wiki/CUT" class="mw-redirect" title="CUT">.cut</a> • <a href="https://gtamods.com/wiki/DFF" class="mw-redirect" title="DFF">.dff</a> • <a href="https://gtamods.com/wiki/Data_Files_(San_Andreas)" class="mw-redirect" title="Data Files (San Andreas)">.dat</a> • <a href="https://gtamods.com/wiki/Particle_(SA)" title="Particle (SA)">.fxp</a> • <a href="https://gtamods.com/wiki/GXT" title="GXT">.gxt</a> • <a href="https://gtamods.com/wiki/Item_Definition" title="Item Definition">.ide</a> • <a href="https://gtamods.com/wiki/IFP" title="IFP">.ifp</a> • <a href="https://gtamods.com/wiki/IMG" class="mw-redirect" title="IMG">.img</a> • <a href="https://gtamods.com/wiki/Item_Placement" title="Item Placement">.ipl</a> • <a href="https://gtamods.com/wiki/Paths_(GTA_SA)" title="Paths (GTA SA)">nodes*.dat</a> • <a href="https://gtamods.com/wiki/Decision_Maker" title="Decision Maker">.ped</a> • <a href="https://gtamods.com/wiki/REP" class="mw-redirect" title="REP">.rep</a> • <a href="https://gtamods.com/wiki/Carrec" title="Carrec">.rrr</a> • <a href="https://gtamods.com/wiki/SA_SCM" title="SA SCM">.scm</a> • <a href="https://gtamods.com/wiki/Gta_sa.set" title="Gta sa.set">.set</a> • <a href="https://gtamods.com/wiki/Texture_archive" title="Texture archive">.txd</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:Documentation" title="Category:Documentation">Documentation</a></b></td><td style="border: 1px solid white;background:#ffe8a9; font-size:90%"><a href="https://gtamods.com/wiki/Audio_stream" title="Audio stream">Audio</a> • <a href="https://gtamods.com/wiki/Cryptography" title="Cryptography">Cryptography</a> • <a href="https://gtamods.com/wiki/Cutscene" title="Cutscene">Cutscenes</a> • <a href="https://gtamods.com/wiki/Memory_Addresses_(SA)" title="Memory Addresses (SA)">Game memory</a> • <a href="https://gtamods.com/wiki/Handling.cfg#GTA_San_Andreas" title="Handling.cfg">Handling.cfg</a> • <a href="https://gtamods.com/wiki/Gta.dat" title="Gta.dat">Map Listing</a> • <a href="https://gtamods.com/wiki/Mission_Pack" title="Mission Pack">Mission Packs</a> • <a href="https://gtamods.com/wiki/SCM_Instruction" title="SCM Instruction">Instructions</a> • <a href="https://gtamods.com/wiki/Paths_(GTA_SA)" title="Paths (GTA SA)">Paths</a> • <a href="https://gtamods.com/wiki/Replays_(GTA_SA)" title="Replays (GTA SA)">Replays</a> • <a href="https://gtamods.com/wiki/Saves_(GTA_SA)" title="Saves (GTA SA)">Saves</a> • <a href="https://gtamods.com/wiki/SCM_language" title="SCM language">Scripts</a> • <a href="https://gtamods.com/wiki/SFX_(SA)" title="SFX (SA)">Sound Effects</a> • <a href="https://gtamods.com/wiki/List_of_statistics_(SA)" title="List of statistics (SA)">Statistics</a> • <a href="https://gtamods.com/wiki/Vehicle_Formats#San_Andreas" title="Vehicle Formats">Vehicles</a> • <a href="https://gtamods.com/wiki/Wanted_level" title="Wanted level">Wanted levels</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:Tools" title="Category:Tools">Tools</a></b></td><td style="border: 1px solid white;background:#ffe3a9; font-size:90%"><a href="https://gtamods.com/wiki/CLEO" title="CLEO">CLEO</a> • <a href="https://gtamods.com/wiki/Collision_File_Editor_II" title="Collision File Editor II">Collision File Editor II</a> • <a href="https://gtamods.com/wiki/ENBSeries_(SA)" title="ENBSeries (SA)">ENBSeries</a> • <a href="https://gtamods.com/wiki/G-Tools" title="G-Tools">G-Tools</a> • <a href="https://gtamods.com/wiki/IMG_Tool" title="IMG Tool">IMG Tool</a> • <a href="https://gtamods.com/wiki/SA_Limit_Adjuster" title="SA Limit Adjuster">Limit Adjuster</a> • <a href="https://gtamods.com/wiki/MEd" title="MEd">Map Editor</a> • <a href="https://gtamods.com/wiki/Mod_Loader" title="Mod Loader">Mod Loader</a> • <a href="https://gtamods.com/wiki/San_Andreas_Audio_Toolkit" title="San Andreas Audio Toolkit">San Andreas Audio Toolkit</a> • <a href="https://gtamods.com/wiki/Sanny_Builder" title="Sanny Builder">Sanny Builder</a> • <a href="https://gtamods.com/wiki/TXD_Workshop" title="TXD Workshop">TXD Workshop</a> • <a href="https://gtamods.com/wiki/Magic.TXD" title="Magic.TXD">Magic.TXD</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:Tutorials" title="Category:Tutorials">Tutorials</a></b></td><td style="border: 1px solid white;background:#ffe8a9; font-size:90%"><a href="https://gtamods.com/wiki/San_Andreas_v2.0_Modding" title="San Andreas v2.0 Modding">San Andreas v2.0 Modding</a> • <a href="https://gtamods.com/wiki/Create_a_mission" title="Create a mission">How to create a mission</a> • <a href="https://gtamods.com/wiki/Create_a_script" title="Create a script">How to create a script</a> • <a href="https://gtamods.com/wiki/Using_MEd" title="Using MEd">How to use Map Editor</a> • <a href="https://gtamods.com/wiki/Vehicle_Mod_Installation" title="Vehicle Mod Installation">Vehicle Mod Installation</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:Modifications" title="Category:Modifications">Modifications</a></b></td><td style="border: 1px solid white;background:#ffe3a9; font-size:90%"><a href="https://gtamods.com/wiki/Design_Your_Own_Mission" title="Design Your Own Mission">Design Your Own Mission</a> • <a href="https://gtamods.com/wiki/Gostown_Paradise" title="Gostown Paradise">Gostown Paradise</a> • <a href="https://gtamods.com/wiki/GTA:_United" title="GTA: United">GTA: United</a> • <a href="https://gtamods.com/wiki/Myriad_Islands" title="Myriad Islands">Myriad Islands</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b><a href="https://gtamods.com/wiki/Category:Multiplayer" title="Category:Multiplayer">Multiplayer</a></b></td><td style="border: 1px solid white;background:#ffe8a9; font-size:90%"><a href="https://gtamods.com/wiki/GTATournament" title="GTATournament">gtaTournament</a> • <a href="https://gtamods.com/wiki/Multi_Theft_Auto" title="Multi Theft Auto">Multi Theft Auto</a> • <a href="https://gtamods.com/wiki/San_Andreas_Multiplayer" title="San Andreas Multiplayer">San Andreas Multiplayer</a> • <a href="https://gtamods.com/wiki/Multiplayer#GTA_SA" title="Multiplayer">(more...)</a></td></tr><tr><td width="110px" style="border: 1px solid white;background:#d89963; font-size:90%; text-align:right"><b>Useful links</b></td><td style="border: 1px solid white;background:#ffe3a9; font-size:90%"><span class="plainlinks"><a rel="nofollow" class="external text" href="https://www.gtasanandreas.net/overview/index.php">Community Portal</a> • <a rel="nofollow" class="external text" href="https://gtaforums.com/forum/94-gta-san-andreas/">Discussion Forums</a> • <a rel="nofollow" class="external text" href="https://gtaforums.com/forum/332-gta-iii-vc-sa/">Modding Forums</a> • <a rel="nofollow" class="external text" href="http://www.gtagarage.com/mods/browse.php?C=0&amp;State=0&amp;Type=0&amp;Game=5&amp;Order=LastUpdate&amp;Dir=DESC&amp;st=0">Mods on GTAGarage.com</a> • <a rel="nofollow" class="external text" href="https://gtaforums.com/topic/661408-gta-san-andreas-mobile-modding/">Mobile Modding</a> • <a rel="nofollow" class="external text" href="https://www.gtagmodding.com/opcode-database/">Opcodes Database</a></span></td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20240305213947
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.053 seconds
+Real time usage: 0.060 seconds
+Preprocessor visited node count: 301/1000000
+Preprocessor generated node count: 2123/1000000
+Post‐expand include size: 15170/2097152 bytes
+Template argument size: 3052/2097152 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   12.818      1 -total
+ 43.66%    5.597      1 Template:SA-navi
+ 37.46%    4.801      1 Template:GTAF
+ 33.12%    4.245      1 Template:Navibox
+ 23.71%    3.039      2 Template:Icon
+ 15.52%    1.989      1 Template:Cleanup-rewrite
+-->
+
+<!-- Saved in parser cache with key gtamodswiki:pcache:idhash:1004-0!canonical and timestamp 20240305213947 and revision id 9590
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;oldid=9590">https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;oldid=9590</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://gtamods.com/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="https://gtamods.com/wiki/Category:Articles_needing_rewrite" title="Category:Articles needing rewrite">Articles needing rewrite</a></li><li><a href="https://gtamods.com/wiki/Category:GTA_SA" title="Category:GTA SA">GTA SA</a></li><li><a href="https://gtamods.com/wiki/Category:Memory_Addresses" title="Category:Memory Addresses">Memory Addresses</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="https://gtaforums.com/register/" title="You are encouraged to create an account and log in; however, it is not mandatory">Register</a></li><li id="pt-anon_oauth_login"><a href="https://gtamods.com/mediawiki/index.php?title=Special:OAuth2Client/redirect&amp;returnto=Function+Memory+Addresses+%28SA%29">GTAForums login</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li><li id="ca-talk"><span><a href="https://gtamods.com/wiki/Talk:Function_Memory_Addresses_(SA)" rel="discussion" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label">
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="https://gtamods.com/wiki/Function_Memory_Addresses_(SA)">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label" style="">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="https://gtamods.com/mediawiki/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search GTAMods Wiki" title="Search GTAMods Wiki [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://gtamods.com/wiki/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="https://gtamods.com/wiki/Main_Page" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li><li id="n-Tutorials-and-guides"><a href="https://gtamods.com/wiki/Category:Tutorials">Tutorials and guides</a></li><li id="n-Documentation"><a href="https://gtamods.com/wiki/Category:Documentation">Documentation</a></li><li id="n-recentchanges"><a href="https://gtamods.com/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="https://gtamods.com/wiki/Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Games" aria-labelledby="p-Games-label">
+			<h3 id="p-Games-label">Games</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Grand-Theft-Auto-V"><a href="https://gtamods.com/wiki/Category:GTA_5">Grand Theft Auto V</a></li><li id="n-Grand-Theft-Auto-IV"><a href="https://gtamods.com/wiki/Category:GTA_4">Grand Theft Auto IV</a></li><li id="n-GTA-Vice-City-Stories"><a href="https://gtamods.com/wiki/Category:GTA_VCS">GTA Vice City Stories</a></li><li id="n-GTA-Liberty-City-Stories"><a href="https://gtamods.com/wiki/Category:GTA_LCS">GTA Liberty City Stories</a></li><li id="n-GTA-San-Andreas"><a href="https://gtamods.com/wiki/Category:GTA_SA">GTA San Andreas</a></li><li id="n-GTA-Vice-City"><a href="https://gtamods.com/wiki/Category:GTA_VC">GTA Vice City</a></li><li id="n-Grand-Theft-Auto-III"><a href="https://gtamods.com/wiki/Category:GTA_3">Grand Theft Auto III</a></li><li id="n-Grand-Theft-Auto-2"><a href="https://gtamods.com/wiki/Category:GTA_2">Grand Theft Auto 2</a></li><li id="n-Grand-Theft-Auto"><a href="https://gtamods.com/wiki/Category:GTA_1">Grand Theft Auto</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="https://gtamods.com/wiki/Special:WhatLinksHere/Function_Memory_Addresses_(SA)" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://gtamods.com/wiki/Special:RecentChangesLinked/Function_Memory_Addresses_(SA)" rel="nofollow" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="https://gtamods.com/wiki/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;oldid=9590" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://gtamods.com/mediawiki/index.php?title=Function_Memory_Addresses_(SA)&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Network" aria-labelledby="p-Network-label">
+			<h3 id="p-Network-label">Network</h3>
+			<div class="body">
+								<ul>
+					<li id="n-GTA-Network"><a href="http://www.gtanet.com/" rel="nofollow">GTA Network</a></li><li id="n-GTA-Forums"><a href="http://gtaforums.com/" rel="nofollow">GTA Forums</a></li><li id="n-GTA-V"><a href="http://grandtheftauto.net/gta5" rel="nofollow">GTA V</a></li><li id="n-GTA-IV"><a href="http://www.gta4.net/" rel="nofollow">GTA IV</a></li><li id="n-GTA-San-Andreas"><a href="http://www.gtasanandreas.net/overview/index.php" rel="nofollow">GTA San Andreas</a></li><li id="n-GTA-Vice-City"><a href="http://www.gtavice.com/" rel="nofollow">GTA Vice City</a></li><li id="n-GTA-III"><a href="http://www.gta3.com/what-is-gta3/" rel="nofollow">GTA III</a></li><li id="n-GTA-Garage"><a href="http://www.gtagarage.com/" rel="nofollow">GTA Garage</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 23 January 2011, at 12:15.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://gtamods.com/wiki/GTAMods_Wiki:Privacy_policy" title="GTAMods Wiki:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="https://gtamods.com/wiki/GTAMods_Wiki:About" title="GTAMods Wiki:About">About GTAMods Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="https://gtamods.com/wiki/GTAMods_Wiki:General_disclaimer" title="GTAMods Wiki:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://creativecommons.org/licenses/by/4.0/"><img src="./Function Memory Addresses (SA) - GTAMods Wiki_files/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="./Function Memory Addresses (SA) - GTAMods Wiki_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/mediawiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /mediawiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.053","walltime":"0.060","ppvisitednodes":{"value":301,"limit":1000000},"ppgeneratednodes":{"value":2123,"limit":1000000},"postexpandincludesize":{"value":15170,"limit":2097152},"templateargumentsize":{"value":3052,"limit":2097152},"expansiondepth":{"value":7,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%   12.818      1 -total"," 43.66%    5.597      1 Template:SA-navi"," 37.46%    4.801      1 Template:GTAF"," 33.12%    4.245      1 Template:Navibox"," 23.71%    3.039      2 Template:Icon"," 15.52%    1.989      1 Template:Cleanup-rewrite"]},"cachereport":{"timestamp":"20240305213947","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":62});});</script>
+	
+
+<div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>
